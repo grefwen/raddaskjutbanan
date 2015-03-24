@@ -1,0 +1,27 @@
+body	{padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+		text-align: center;
+		vertical-align: middle;
+		background-color: #ffc000;
+		font-family: verdana;}
+h1	{font-size: 25pt;}
+h2	{font-size: 18pt;}
+p		{font-size: 11pt;}
+
+#main	{padding: 10px 10px 10px 10px;
+		border-style: solid;
+		border-color: #ff0000;
+		border-width: 5px;
+		background-color: #ffffff;
+		height: 600px;
+		width: 800px;
+		vertical-align: middle;
+		
+		position:absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -330px; /*set to a negative number 1/2 of your height*/
+	margin-left: -400px; /*set to a negative number 1/2 of your width*/}
+
+
+

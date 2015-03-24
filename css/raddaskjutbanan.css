@@ -1,0 +1,126 @@
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;overflow-y:scroll;
+	height: auto;
+	background: #ffaf4b; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffaf4b 0%, #ffc000 46%, #ff920a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffaf4b), color-stop(46%,#ffc000), color-stop(100%,#ff920a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #ffaf4b 0%,#ffc000 46%,#ff920a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #ffaf4b 0%,#ffc000 46%,#ff920a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #ffaf4b 0%,#ffc000 46%,#ff920a 100%); /* IE10+ */
+background: linear-gradient(135deg,  #ffaf4b 0%,#ffc000 46%,#ff920a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+min-height: 100%;
+}
+body	{
+		padding: 0;
+		margin: 0;
+		
+		font-family: Helvetica, arial, sans-serif;
+		font-size: 1.0em;
+		line-height: 1.5em;
+		
+	
+		
+		}
+h1	{text-align: center; font-size: 2em; line-height: 1em; margin: 1em 0 0 0; padding: 0 0 0.5em 0;}
+h2	{text-align: center; font-size: 1.6em; line-height:1.316em; margin: 1em 0 0 0; padding: 0 0 0.5em 0;}
+p		{font-size: 1.0em; line-height: 1.3em; margin: 0 0 1.5em 0;}
+p.menu {text-align: center;}
+a { text-decoration: none;}
+#main	{
+		border: 5px solid #f00;
+		background-color: #ffffff;
+		-webkit-box-shadow:  0px 1px 5px 2px rgba(0, 0, 0, 0.2);
+        box-shadow:  0px 1px 5px 2px rgba(0, 0, 0, 0.2);
+        	}
+.content{
+	margin: 1.5em 3em;
+}
+.logo{
+	text-align: center;
+}
+
+
+/* max device width */
+@media screen and (max-width: 320px) {
+	#main {
+		background: #fff;
+		width: 280px;
+		margin: 20px auto;
+	}
+h1	{font-size: 1.4em; line-height: 1.5em; margin: 1.5em 0 0 0; }
+	h2	{font-size: 1.2em; line-height:1.167em; margin: 1.167em 0 0 0;}
+	p		{font-size: 1.0em; line-height: 1.5em; margin: 0 0 1.5em 0;}
+	a { text-decoration: none;}
+	.content{
+	margin: 1.5em;
+}
+}
+
+/* max device width */
+@media screen and (max-width: 480px) {
+	#main {
+		background: #fff;
+		width: 320px;
+		margin: 20px auto;
+	}
+	h1	{font-size: 1.4em; line-height: 1.5em; margin: 1.5em 0 0 0; }
+	h2	{font-size: 1.2em; line-height:1.167em; margin: 1.167em 0 0 0;}
+	p		{font-size: 1.0em; line-height: 1.5em; margin: 0 0 1.5em 0;}
+	a { text-decoration: none;}
+	.content{
+	margin: 1.5em;
+}
+
+}
+
+/* max-width */
+@media screen and (min-width: 480px) and (max-width: 600px) {
+	#main {
+		background: #fff;
+		width: 440px;
+		margin: 20px auto;
+
+	}
+	h1	{font-size: 1.4em; line-height: 1.5em; margin: 1.5em 0 0 0; }
+	h2	{font-size: 1.2em; line-height:1.167em; margin: 1.167em 0 0 0;}
+	p		{font-size: 1.0em; line-height: 1.5em; margin: 0 0 1.5em 0;}
+	a { text-decoration: none;}
+	.content{
+	margin: 1.5em;
+}
+
+	
+}
+
+
+
+
+
+/* min-width */
+@media screen and (min-width: 900px) {
+	#main {
+		background: #fff;
+		width: 800px;
+		margin: 20px auto;
+	}
+}
+
+/* min-width & max-width */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	#main {
+		background: #fff;
+		width: 580px;
+		margin: 20px auto;
+	}
+	h1	{font-size: 1.4em; line-height: 1.5em; margin: 1.5em 0 0 0; }
+	h2	{font-size: 1.2em; line-height:1.167em; margin: 1.167em 0 0 0;}
+	p		{font-size: 1.0em; line-height: 1.5em; margin: 0 0 1.5em 0;}
+	a { text-decoration: none;}
+	.content{
+	margin: 1.5em;
+}
+
+}
+
